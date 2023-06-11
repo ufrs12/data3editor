@@ -1,3 +1,10 @@
+# data3editor
+
+This project is based on the [BEHAVIOR3EDITOR](https://github.com/behavior3/behavior3editor) project.
+
+The purpose of this project is to update and expand the functionality for using it to describe tree data structures.
+
+
 # BEHAVIOR3EDITOR
 
 ![interface preview](preview.png)
@@ -40,9 +47,4 @@ Why should you use b3editor? What is different from other editors? Can it compet
 
 Nothing is perfect =( . Behavior3 Editor focus on Chrome (thus, working pretty well on Opera too), so it have some incompatibilities with Firefox, such as the image preview lag when dragging to create a node for the first time, and the ugly scroll bar inside the panels. Not tested on IE!
 
-
-## Looking for Behavior Tree Libraries?
-
-- https://github.com/behavior3/behavior3js
-- https://github.com/behavior3/behavior3py
 

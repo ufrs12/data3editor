@@ -1,3 +1,26 @@
+# Building data3editor for Docker
+
+Build image
+
+```
+docker build -t data3editor .
+```
+
+Run for the first time
+
+```
+docker run -p 8000:8000 --name data3cont data3editor
+```
+
+Run afterwards
+
+```
+docker start data3cont -i
+```
+
+Goto 
+[http://localhost:8000/](http://localhost:8000/) to use data3editor
+
 # Building Behavior3 Editor
 
 You can build the editor in two different environments: for development and for production. For development you can run a local web server that will build and reload automatically the application for each new modification on the project. The production mode builds and package the editor for different platforms.
