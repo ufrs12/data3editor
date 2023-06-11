@@ -4,5 +4,5 @@
 b3e.Root = {
   name     : 'Root',
   category : 'root',
-  title    : 'A behavior tree'
+  title    : 'Tree'
 };
