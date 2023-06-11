@@ -38,7 +38,7 @@
         var root = tree.blocks.getRoot();
         vm.trees.push({
           'id'       : tree._id,
-          'name'     : root.title || 'A behavior tree',
+          'name'     : root.title || 'Tree',
           'active'   : tree===selected,
         });
       });
