@@ -1,3 +1,23 @@
+# Building data3editor for Docker production
+
+Build image
+
+```
+docker build -t data3editor4prod -f DockerfileProd .
+```
+
+Run for the first time
+
+```
+docker run -p 8000:80 --name data3cont4prod data3editor4prod
+```
+
+Run afterwards
+
+```
+docker start data3cont4prod -i
+```
+
 # Building data3editor for Docker
 
 Build image
