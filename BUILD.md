@@ -1,4 +1,15 @@
-# Building data3editor for Docker production
+# Building in Docker data3editor for Desktop
+
+Build image
+
+```
+docker build -t data3editor4distr -f DockerfileDistr .
+```
+run this image in container
+zip archives in linux folders of container.
+
+
+# Building data3editor for Docker web production
 
 Build image
 
