@@ -29,18 +29,18 @@ var vendor_js = [
   'src/assets/libs/creatine-1.0.0.min.js',
   'src/assets/libs/behavior3js-0.1.0.min.js',
   'src/assets/libs/mousetrap.min.js',
-  'bower_components/angular/angular.min.js',
-  'bower_components/angular-animate/angular-animate.min.js',
-  'bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js',
-  'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-  'bower_components/sweetalert/dist/sweetalert.min.js',
+  'node_modules/angular/angular.min.js',
+  'node_modules/angular-animate/angular-animate.min.js',
+  'node_modules/angular-bootstrap/ui-bootstrap-tpls.min.js',
+  'node_modules/angular-ui-router/release/angular-ui-router.min.js',
+  'node_modules/sweetalert/dist/sweetalert.min.js',
 ];
 var vendor_css = [
-  'bower_components/bootstrap/dist/css/bootstrap.min.css',
-  'bower_components/sweetalert/dist/sweetalert.css',
+  'node_modules/bootstrap/dist/css/bootstrap.min.css',
+  'node_modules/sweetalert/dist/sweetalert.css',
 ];
 var vendor_fonts = [
-  'bower_components/fontawesome/fonts/*',
+  'node_modules/font-awesome/fonts/*',
   'src/assets/fonts/**/*',
 ];
 
@@ -49,7 +49,8 @@ var preload_js = [
 ];
 
 var preload_css = [
-  'bower_components/fontawesome/css/font-awesome.min.css',
+  'node_modules/font-awesome/css/font-awesome.min.css',
+  // 'src/assets/css/font-awesome.min.css',
   'src/assets/css/preload.css',
 ];
 

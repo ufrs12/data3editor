@@ -25,7 +25,16 @@
     "merge-stream": "~1.0.0",
     "rimraf": "^2.4.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-animate": "~1.4",
+    "angular-bootstrap": "~0.12.2",
+    "angular-ui-router": "~0.2.14",
+    "bootstrap": "~3.1.1",
+    "font-awesome": "^4.7.0",
+    "less": "~3.7.0",
+    "sweetalert": "~1.0.0-beta"
+  },
   "overrides": {
     "graceful-fs": "^4.2.11"
   }
