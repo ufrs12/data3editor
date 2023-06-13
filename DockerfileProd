@@ -1,7 +1,7 @@
-FROM node:20.3.0 AS build
+FROM node:18.16.0 AS build
 WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
-RUN npm i -g  gulp
+RUN npm i -g gulp-cli
 RUN npm i
 COPY . .
 RUN gulp build
