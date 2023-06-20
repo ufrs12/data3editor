@@ -231,12 +231,8 @@ gulp.task('_electron', gulp.series('build', function pack(cb) {
     version   : '0.34.2',
     overwrite : true,
     asar      : true
-  }).then((result)=>{
-    console.log('packager success...', result);
-    cb();
-  }).catch((err)=>{
-    console.log('packager failed ', err);
-    cb();
+  }, function done(err, appPath) {
+    cb(err);
   })
 }));
 
