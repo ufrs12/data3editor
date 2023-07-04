@@ -100,6 +100,7 @@
     }
 
     var canvas = this._game.canvas;
+    canvas.style.background = "url('imgs/1.png')";
     canvas.style.backgroundColor = this._settings.get('background_color');
 
     this.project._applySettings(this._settings);
@@ -129,6 +130,8 @@
     stage.scaleY = tree.scaleY;
     stage.addChild(block);
     stage.update();
+
+    canvas.style.background = "url('imgs/1.png')";
 
     return canvas;
   };
