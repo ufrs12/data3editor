@@ -100,8 +100,9 @@
     }
 
     var canvas = this._game.canvas;
-    canvas.style.background = "url('imgs/1.png')";
+    //canvas.style.background = "url('imgs/1.png')";
     canvas.style.backgroundColor = this._settings.get('background_color');
+
 
     this.project._applySettings(this._settings);
     this.export._applySettings(this._settings);
@@ -129,9 +130,15 @@
     stage.scaleX = tree.scaleX;
     stage.scaleY = tree.scaleY;
     stage.addChild(block);
+
+    var queue = new createjs.LoadQueue(true);
+    queue.loadFile({src:"imgs/1.svg", id:"bg", type: createjs.LoadQueue.IMAGE});
+    var bg = new createjs.Bitmap(queue.loadFile({src:"imgs/1.svg", type: createjs.LoadQueue.IMAGE}));  
+    stage.addChild(bg);
+    
     stage.update();
 
-    canvas.style.background = "url('imgs/1.png')";
+    //canvas.style.background = "url('imgs/1.png')";
 
     return canvas;
   };

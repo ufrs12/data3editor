@@ -114,7 +114,7 @@
           _openProject(path);
         } else {
           dialogService
-            .openFile(false, ['.b3', '.json'])
+            .openFile(false, ['.b3', '.json', 'd3e'])
             .then(function(path) {
               _openProject(path);
             });
